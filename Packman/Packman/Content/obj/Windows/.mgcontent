@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Packman/Packman/Content/centerDot.png</File>
+    <File>D:/Packman/Packman/Content/ghost.png</File>
+    <File>D:/Packman/Packman/Content/pacman.png</File>
+    <File>D:/Packman/Packman/Content/SpriteSheet.png</File>
+    <File>D:/Packman/Packman/Content/Tileset.png</File>
+    <File>D:/Packman/Packman/Content/wall.png</File>
+    <File>D:/Packman/Packman/Content/spritefont</File>
+    <File>D:/Packman/Packman/Content/Pacman_SM.png</File>
+  </SourceFiles>
+</SourceFileCollection>
