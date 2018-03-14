@@ -1,0 +1,90 @@
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Ground.xnb
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.exe
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.pdb
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\MonoGame.Framework.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\MonoGame.Framework.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.csprojResolveAssemblyReference.cache
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.exe
+c:\users\flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.pdb
+C:\Users\Flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\SpriteSheet.xnb
+C:\Users\Flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\background.xnb
+C:\Users\Flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_End.xnb
+C:\Users\Flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Start.xnb
+C:\Users\Flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Spike.xnb
+C:\Users\Flugan\documents\visual studio 2015\Projects\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_TNT.xnb
+D:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.exe
+D:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.pdb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\background.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_End.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Ground.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Spike.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Start.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_TNT.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\SpriteSheet.xnb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.exe
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.pdb
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.csprojResolveAssemblyReference.cache
+M:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.exe
+M:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.pdb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\background.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_End.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Ground.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Spike.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Start.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_TNT.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\SpriteSheet.xnb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.exe
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.pdb
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\MonoGame.Framework.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\MonoGame.Framework.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.xml
+M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+M:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.csprojResolveAssemblyReference.cache

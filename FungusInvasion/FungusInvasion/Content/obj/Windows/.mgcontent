@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/FungusInvasion/FungusInvasion/Content/FI_Ground.png</File>
+    <File>D:/FungusInvasion/FungusInvasion/Content/SpriteSheet.png</File>
+    <File>D:/FungusInvasion/FungusInvasion/Content/background.png</File>
+    <File>D:/FungusInvasion/FungusInvasion/Content/FI_End.png</File>
+    <File>D:/FungusInvasion/FungusInvasion/Content/FI_Start.png</File>
+    <File>D:/FungusInvasion/FungusInvasion/Content/FI_Spike.png</File>
+    <File>D:/FungusInvasion/FungusInvasion/Content/FI_TNT.png</File>
+  </SourceFiles>
+</SourceFileCollection>
