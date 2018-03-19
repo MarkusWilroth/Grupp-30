@@ -53,7 +53,7 @@ namespace FungusInvasion
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             spriteSheet = Content.Load<Texture2D>("spriteSheet");
-            background = Content.Load<Texture2D>("background");
+            background = Content.Load<Texture2D>("himmel");
             texStart = Content.Load<Texture2D>("FI_Start");
             texEnd = Content.Load<Texture2D>("FI_End");
 

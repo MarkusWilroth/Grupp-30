@@ -90,12 +90,10 @@ M:\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
 M:\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.csprojResolveAssemblyReference.cache
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.exe
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.pdb
-C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\background.xnb
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_End.xnb
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Ground.xnb
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Spike.xnb
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_Start.xnb
-C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\FI_TNT.xnb
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\SpriteSheet.xnb
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.exe
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\FungusInvasion.pdb
@@ -118,3 +116,4 @@ C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.XInput.xml
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
 C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\obj\x86\Debug\FungusInvasion.csprojResolveAssemblyReference.cache
+C:\Users\spellabbet\Grupp-30\FungusInvasion\FungusInvasion\bin\Windows\x86\Debug\Content\himmel.xnb

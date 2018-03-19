@@ -43,7 +43,7 @@ namespace FungusInvasion
         {
             foreach (Rectangle groundRect in rectList)
             {
-                spriteBatch.Draw(spriteSheet, groundRect, groundSheet, Color.Gray);
+                spriteBatch.Draw(spriteSheet, groundRect, groundSheet, Color.Pink);
             }
         }
 
