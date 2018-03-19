@@ -9,7 +9,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
 namespace FungusInvasion {
-    class enemyObject:gameObject {
+    class enemyObject : gameObject
+    {
         protected List<Vector2> enemyList;
         protected List<Vector2> groundRectList;
         protected Rectangle[] hitBox;
@@ -19,7 +20,8 @@ namespace FungusInvasion {
         protected int[] movement;
         protected Game1 game;
 
-        public enemyObject(Texture2D spriteSheet, String[] levelList, Game1 game) : base(spriteSheet, levelList) {
+        public enemyObject(Texture2D spriteSheet, String[] levelList, Game1 game) : base(spriteSheet, levelList)
+        {
             this.game = game;
             enemyList = new List<Vector2>();
             enemies = 10;
@@ -33,7 +35,8 @@ namespace FungusInvasion {
 
             enemyList = GetPos('s', game.currentLevel);
             enemySheet = new Rectangle(6, 178, 77, 95);
-            foreach (Vector2 pos in enemyList) {
+            foreach (Vector2 pos in enemyList)
+            {
                 i++;
                 hitBox[i] = new Rectangle((int)pos.X, (int)pos.Y, enemySheet.Width, enemySheet.Height);
                 movement[i] = -2;
@@ -43,59 +46,77 @@ namespace FungusInvasion {
             }
         }
 
-        public override void Update(List<Rectangle> groundRectList, GameTime gameTime) {
+        public override void Update(List<Rectangle> groundRectList, GameTime gameTime)
+        {
             playerHitBox = new Rectangle((int)game.playerPos.X, (int)game.playerPos.Y, 40, 80);
-            
-            for (int i = 0; i < enemies; i++) { 
+
+            for (int i = 0; i < enemies; i++)
+            {
                 inAir[i] = Gravity(hitBox[i], groundRectList);
                 isWall[i] = HitWall(hitBox[i], groundRectList, movement[i]);
 
-                if (isWall[i]) {
-                    if (movingLeft[i]) {
+                if (isWall[i])
+                {
+                    if (movingLeft[i])
+                    {
                         movingLeft[i] = false;
                     }
-                    else {
+                    else
+                    {
                         movingLeft[i] = true;
                     }
                 }
-                if (movingLeft[i]) {
+                if (movingLeft[i])
+                {
                     movement[i] = +2;
                 }
-                else {
+                else
+                {
                     movement[i] = -2;
                 }
                 hitBox[i].X += movement[i];
-                if (inAir[i]) {
+                if (inAir[i])
+                {
                     hitBox[i].Y += 4;
                 }
-                if (hitBox[i].Y >= 1000) {
+                if (hitBox[i].Y >= 1000)
+                {
                     hitBox[i] = new Rectangle(10000, 10000, 40, 80);
                 }
-                if (playerHitBox.Intersects(hitBox[i])) {
+                if (playerHitBox.Intersects(hitBox[i]))
+                {
                     isBattle[i] = game.PixelCollision(spriteSheet, hitBox[i], enemySheet); //Fel med detta.... Måste fixas
-                    if (isBattle[i]) {
-                        if (game.playerPos.Y < hitBox[i].Y - hitBox[i].Height / 2) {
+                    if (isBattle[i])
+                    {
+                        if (game.playerPos.Y < hitBox[i].Y - hitBox[i].Height / 2)
+                        {
                             hitBox[i] = new Rectangle(10000, 10000, 40, 80);
-                        } else {
+                        }
+                        else
+                        {
                             game.isDead = true;
                         }
                     }
                 }
-                
+
                 isBattle[i] = false;
             }
-            
-        }
-        
 
-        public override void Draw(SpriteBatch spriteBatch) {
-            for (int i = 0; i < enemies; i++) {
+        }
+
+
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            for (int i = 0; i < enemies; i++)
+            {
                 spriteBatch.Draw(spriteSheet, hitBox[i], enemySheet, Color.White);
             }
         }
-        public void Restart() {
-            for (int i = 0; i < enemies; i++) {
-                hitBox[i] = new Rectangle(10000,10000, 40, 80);
+        public void Restart()
+        {
+            for (int i = 0; i < enemies; i++)
+            {
+                hitBox[i] = new Rectangle(10000, 10000, 40, 80);
             }
         }
     }

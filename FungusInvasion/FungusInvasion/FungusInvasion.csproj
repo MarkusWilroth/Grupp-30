@@ -47,12 +47,9 @@
     <Compile Include="gameObject.cs" />
     <Compile Include="groundObject.cs" />
     <Compile Include="keyObject.cs" />
-    <Compile Include="movingObject.cs" />
     <Compile Include="playerObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="spikeObject.cs" />
-    <Compile Include="tntObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
