@@ -44,14 +44,12 @@ namespace FungusInvasion
 
             if (playerHitBox.Intersects(keyHitBox))
             {
-                isTaken = game.PixelCollision(spriteSheet, keyHitBox, keySheet); //Fel med detta.... Måste fixas
+                isTaken = game.PixelCollision(spriteSheet, keyHitBox, keySheet);
                 if (isTaken)
                 {
-                    game.nextLevel = true;
+                    game.isEnd = true;
                 }
             }
-
-
         }
 
         public override void Draw(SpriteBatch spriteBatch)

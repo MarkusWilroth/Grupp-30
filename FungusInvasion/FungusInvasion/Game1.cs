@@ -34,12 +34,11 @@ namespace FungusInvasion
             IsMouseVisible = true;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            levels = 3;
+            levels = 1;
             lives = 5;
             levelList = new String[levels];
             gameList = new List<gameObject>();
             groundRectList = new List<Rectangle>();
-            currentLevel = 0;
             isStart = true;
             isEnd = false;
             nextLevel = false;
@@ -101,7 +100,6 @@ namespace FungusInvasion
                 cameraPos.X -= 4;
             }
             Dead();
-            NextLevel();
             camera.SetPosition(cameraPos);
 
 
@@ -184,27 +182,6 @@ namespace FungusInvasion
                 }
             }
             return false;
-        }
-        public void NextLevel()
-        {
-            if (nextLevel)
-            {
-                currentLevel++;
-                nextLevel = false;
-                if (currentLevel >= levels)
-                {
-                    isEnd = true;
-                    cameraPos = cameraStart;
-                }
-                else
-                {
-                    groundRectList.Clear();
-                    enemyO.Restart();
-                    keyO.Restart();
-                    playerO.Restart();
-                    LoadContent();
-                }
-            }
         }
 
         public void Start()
