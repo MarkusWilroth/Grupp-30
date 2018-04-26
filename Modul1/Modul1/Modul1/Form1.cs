@@ -38,7 +38,7 @@ namespace Modul1 {
             
             if (isRotating) {
                 Thread.Sleep(100);
-                points = rotation.Update();
+                rotation.Update();
                 panel1.Invalidate();
 
             }
@@ -51,7 +51,7 @@ namespace Modul1 {
 
             g.Clear(Color.White);
             panel1.BackgroundImage = bmp;
-            g.FillPolygon(sb, points);
+            g.FillPolygon(sb, points); //ändra till rektangeln som finns i Rotation... men hur?
             g.Dispose();
             Start();
 
@@ -75,12 +75,12 @@ namespace Modul1 {
         }
 
         private void btnStop_Click(object sender, EventArgs e) {
-            isRotating = false;
+            rotation.Rotating(false);
             Start();
         }
 
         private void btnRotate_Click(object sender, EventArgs e) {
-            isRotating = true;
+            rotation.Rotating(true);
             Start();
         }
     }
