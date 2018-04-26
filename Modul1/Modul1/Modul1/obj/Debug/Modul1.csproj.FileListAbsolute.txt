@@ -7,3 +7,13 @@ c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Mo
 c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.Cache
 c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.exe
 c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.pdb
+M:\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe.config
+M:\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe
+M:\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.pdb
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csprojResolveAssemblyReference.cache
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.Form1.resources
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.Properties.Resources.resources
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.Cache
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.CoreCompileInputs.cache
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.exe
+M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.pdb

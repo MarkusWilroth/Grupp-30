@@ -24,9 +24,9 @@
         /// </summary>
         private void InitializeComponent() {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnRotate = new System.Windows.Forms.Button();
-            this.btnStop = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.btnRotate = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,6 +42,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(7, 20);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(374, 502);
+            this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // btnStop
+            // 
+            this.btnStop.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.btnStop.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnStop.Location = new System.Drawing.Point(201, 528);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(180, 80);
+            this.btnStop.TabIndex = 1;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = false;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // btnRotate
             // 
             this.btnRotate.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -55,26 +76,6 @@
             this.btnRotate.UseVisualStyleBackColor = false;
             this.btnRotate.Click += new System.EventHandler(this.btnRotate_Click);
             // 
-            // btnStop
-            // 
-            this.btnStop.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.btnStop.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnStop.Location = new System.Drawing.Point(201, 528);
-            this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(180, 80);
-            this.btnStop.TabIndex = 1;
-            this.btnStop.Text = "Stop";
-            this.btnStop.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(7, 20);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(374, 502);
-            this.panel1.TabIndex = 2;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -83,6 +84,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

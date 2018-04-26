@@ -18,8 +18,7 @@ namespace Modul1 {
             Form1 task1 = new Form1();
 
 
-            Thread t1 = new Thread(new ThreadStart(task1.Start));
-            t1.Start();
+            
 
 
 
