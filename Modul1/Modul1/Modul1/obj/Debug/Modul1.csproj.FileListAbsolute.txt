@@ -1,0 +1,9 @@
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\bin\Debug\Modul1.exe.config
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\bin\Debug\Modul1.exe
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\bin\Debug\Modul1.pdb
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.csprojResolveAssemblyReference.cache
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.Form1.resources
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.Properties.Resources.resources
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.Cache
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.exe
+c:\users\flugan\documents\visual studio 2015\Projects\Modul1\Modul1\obj\Debug\Modul1.pdb
