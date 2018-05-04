@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/laser.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/skott.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/boss.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/playerShip.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/shipTex.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/asteroid3.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/button.png</File>
+    <File>C:/Users/User/Masteroids/Masteroids/Masteroids/Content/Fonts/Font.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>
