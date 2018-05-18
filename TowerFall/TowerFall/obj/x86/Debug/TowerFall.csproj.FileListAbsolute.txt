@@ -1,0 +1,78 @@
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\spriteSheet.xnb
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\TowerFall.exe
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\TowerFall.pdb
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\obj\x86\Debug\TowerFall.csprojResolveAssemblyReference.cache
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\obj\x86\Debug\TowerFall.exe
+C:\Users\Flugan\documents\visual studio 2015\Projects\TowerFall\TowerFall\obj\x86\Debug\TowerFall.pdb
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\spriteSheet.xnb
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\TowerFall.exe
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\TowerFall.pdb
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\TowerFall\TowerFall\obj\x86\Debug\TowerFall.csprojResolveAssemblyReference.cache
+D:\TowerFall\TowerFall\obj\x86\Debug\TowerFall.exe
+D:\TowerFall\TowerFall\obj\x86\Debug\TowerFall.pdb
+M:\TowerFall\TowerFall\obj\x86\Debug\TowerFall.exe
+M:\TowerFall\TowerFall\obj\x86\Debug\TowerFall.pdb
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\spriteSheet.xnb
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\TowerFall.exe
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\TowerFall.pdb
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\MonoGame.Framework.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XInput.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\MonoGame.Framework.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.XInput.xml
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+M:\TowerFall\TowerFall\obj\x86\Debug\TowerFall.csprojResolveAssemblyReference.cache
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\Spline.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\Spline.dll
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\spriteFont.xnb
+M:\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\explosion.xnb
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\TowerFall\TowerFall\bin\Windows\x86\Debug\Content\explosion.xnb

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/TowerFall/TowerFall/Content/spriteSheet.png</File>
+    <File>D:/TowerFall/TowerFall/Content/spriteFont.spritefont</File>
+    <File>D:/TowerFall/TowerFall/Content/explosion.jpg</File>
+  </SourceFiles>
+</SourceFileCollection>
