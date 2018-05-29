@@ -77,13 +77,26 @@ namespace CharacterTransfer
 
         /// <summary>
         /// Exit
-        private void From_FormClosing(object sender, FormClosedEventArgs e) 
-        {
+        private void From_FormClosing(object sender, FormClosedEventArgs e) {
             System.Environment.Exit(System.Environment.ExitCode);
         }
 
         /// <summary>
         /// Let the user/writer start over
+      
+        private void btnClear_Click_1(object sender, EventArgs e) {
+            panBox.BackColor = color; //Clears panel
+            listReader.Items.Clear(); //clesrs reader listBox
+            listWriter.Items.Clear(); //Clears Writer listBox
+            lebRe.Text = "...";     //clears the status
+            lebWr.Text = "...";     //clears the status
+            lbStatus.Text = "...";
+            btnRun.Enabled = true;    //can run again
+            textString.SelectAll();   //dosent clear the input just select it for rerun
+            btnClear.Enabled = false;
+        }
+
+        #region Missclicks
 
         private void listReader_SelectedIndexChanged(object sender, EventArgs e) 
         {
@@ -97,17 +110,8 @@ namespace CharacterTransfer
         private void textString_TextChanged(object sender, EventArgs e) {
         }
 
-        private void btnClear_Click_1(object sender, EventArgs e) 
-        {
-            panBox.BackColor = color; //Clears panel
-            listReader.Items.Clear(); //clesrs reader listBox
-            listWriter.Items.Clear(); //Clears Writer listBox
-            lebRe.Text = "...";     //clears the status
-            lebWr.Text = "...";     //clears the status
-            lbStatus.Text = "...";
-            btnRun.Enabled = true;    //can run again
-            textString.SelectAll();   //dosent clear the input just select it for rerun
-            btnClear.Enabled = false;
-        }
+#endregion
+
+       
     }
 }

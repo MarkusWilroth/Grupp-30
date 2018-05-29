@@ -5,10 +5,8 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace CharacterTransfer 
-{
-    class Reader
-    {
+namespace CharacterTransfer {
+    class Reader {
         /// <summary>
         /// The reciever
         /// </summary>
@@ -24,8 +22,7 @@ namespace CharacterTransfer
         private delegate void DisplayDelegate(String s);
 
         /// Constructor
-        public Reader(CharacterBuffer chb, Random r, int chs, Label l) 
-        {
+        public Reader(CharacterBuffer chb, Random r, int chs, Label l) {
             rand = r;
             charBuff = chb;
             charStrng = chs;
@@ -36,34 +33,27 @@ namespace CharacterTransfer
         /// <summary>
         /// Property for setting mode
         /// </summary>
-        public bool Sync 
-        {
+        public bool Sync {
             set { sync = value; }
         }
         /// <summary>
         ///The thread method to run
         ///Reading one character at a time with random waittime between attempts to read
         /// </summary>
-        public void ReadChar() 
-        {
+        public void ReadChar() {
             bool success;
             char character = ' ';
             //loop all characters
-            for(int i = 0; i < charStrng; i++) 
-            {
+            for (int i = 0; i < charStrng; i++) {
                 //call correct reciever
-                if (sync) 
-                {
+                if (sync) {
                     success = false;
-                    while (!success) 
-                    {
+                    while (!success) {
                         character = charBuff.SyncRead(out success);
                         Thread.Sleep(rand.Next(1, 1000)); //wait
                     }
                     strng += character;
-                } 
-                else 
-                {
+                } else {
                     strng += charBuff.NotSyncRead;
                     Thread.Sleep(rand.Next(1, 1000));  //wait
                 }
@@ -75,8 +65,7 @@ namespace CharacterTransfer
         /// Method to invoke when writing
         /// </summary>
         /// <param name="s"></param>
-        private void DisplayString(string s) 
-        {
+        private void DisplayString(string s) {
             lbRes.Text = s;
         }
 

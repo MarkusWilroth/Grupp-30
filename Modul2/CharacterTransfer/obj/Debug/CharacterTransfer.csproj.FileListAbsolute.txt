@@ -1,0 +1,10 @@
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\bin\Debug\CharacterTransfer.exe.config
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\bin\Debug\CharacterTransfer.exe
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\bin\Debug\CharacterTransfer.pdb
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.csprojResolveAssemblyReference.cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.MainForm.resources
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.Properties.Resources.resources
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.csproj.GenerateResource.Cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.csproj.CoreCompileInputs.cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.exe
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul2\CharacterTransfer\obj\Debug\CharacterTransfer.pdb
