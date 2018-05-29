@@ -5,41 +5,32 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace Assignment1._1
-{
-  
-    class StartClockThread
-    {
+namespace Assignment1._1 {
+
+    class StartClockThread {
         Clock clock;
         Label lblClock;
 
         private delegate void SetTextCallback(string text, Label lbl);
 
-        public StartClockThread(Clock clock, Label lblClock)
-        {
+        public StartClockThread(Clock clock, Label lblClock) {
             this.clock = clock;
             this.lblClock = lblClock;
 
         }
 
-        public void StartClock()
-        {
-            while (clock.IsRunning)
-            {   
-                
-                try
-                {
+        public void StartClock() {
+            while (clock.IsRunning) {
+
+                try {
                     lblClock.Invoke(new SetTextCallback(WriteText), new object[] { clock.ToString(), lblClock });
                     clock.IncrementTime();
-                }
-                catch
-                { }
+                } catch { }
                 Thread.Sleep(1000);
             }
 
         }
-        public  void StopClock()
-        {
+        public void StopClock() {
             clock.IsRunning = false;
 
         }
@@ -48,8 +39,7 @@ namespace Assignment1._1
         /// </summary>
         /// <param name="s0"></param>
         /// <param name="l"></param>
-        private void WriteText(string s, Label l)
-        {
+        private void WriteText(string s, Label l) {
             l.Text = s;
         }
     }

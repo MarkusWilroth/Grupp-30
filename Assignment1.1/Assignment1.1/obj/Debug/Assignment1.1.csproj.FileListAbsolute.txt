@@ -1,0 +1,10 @@
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\bin\Debug\Assignment1.1.exe.config
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\bin\Debug\Assignment1.1.exe
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\bin\Debug\Assignment1.1.pdb
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csprojResolveAssemblyReference.cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1._1.MainForm.resources
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1._1.Properties.Resources.resources
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csproj.GenerateResource.Cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csproj.CoreCompileInputs.cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.exe
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.pdb

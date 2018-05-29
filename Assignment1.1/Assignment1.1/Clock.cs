@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace Assignment1._1
-{
-    class Clock
-    {
+namespace Assignment1._1 {
+    class Clock {
 
         #region
         //Clock t = new Clock();
@@ -63,40 +61,34 @@ namespace Assignment1._1
         private int seconds;
         private bool isRunning;
 
-        public Clock(DateTime newTime) : this(newTime.Hour, newTime.Minute, newTime.Second)
-        {
+        public Clock(DateTime newTime) : this(newTime.Hour, newTime.Minute, newTime.Second) {
         }
 
-        public Clock(int hour, int min, int sec)
-        {
+        public Clock(int hour, int min, int sec) {
             this.hour = hour;
-            this.minutes = min;
-            this.seconds = sec;
+            minutes = min;
+            seconds = sec;
+
         }
-        public bool IsRunning
-        {
+        public bool IsRunning {
             get { return isRunning; }
             set { isRunning = value; }
         }
-         
 
-        public void IncrementTime()
-        {
+
+        public void IncrementTime() {
             seconds++;
-            if (seconds > 59)
-            {
+            if (seconds > 59) {
                 seconds = 0;
 
                 minutes++;
 
-                if(minutes > 59)
-                {
+                if (minutes > 59) {
                     minutes = 0;
 
                     hour++;
 
-                    if(hour > 23)
-                    {
+                    if (hour > 23) {
                         hour = 0;
                     }
                 }
@@ -104,9 +96,8 @@ namespace Assignment1._1
 
         }
 
-        public override string ToString()
-        {
-           string strOut = string.Format("{0,2:d2}:{1,2:d2}:{2,2:d2}", hour, minutes, seconds);
+        public override string ToString() {
+            string strOut = string.Format("{0,2:d2}:{1,2:d2}:{2,2:d2}", hour, minutes, seconds);
             return strOut;
         }
 
