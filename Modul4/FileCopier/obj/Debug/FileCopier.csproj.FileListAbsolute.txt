@@ -1,0 +1,36 @@
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\bin\Debug\FileCopier.exe.config
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\bin\Debug\FileCopier.exe
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\bin\Debug\FileCopier.pdb
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\obj\Debug\FileCopier.csprojResolveAssemblyReference.cache
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\obj\Debug\FileCopier.FrmMain.resources
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\obj\Debug\FileCopier.Properties.Resources.resources
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\obj\Debug\FileCopier.csproj.GenerateResource.Cache
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\obj\Debug\FileCopier.exe
+C:\Users\Stikkan\Documents\Visual Studio 2012\Projects\FileCopier3\Assignment3B\FileCopier\obj\Debug\FileCopier.pdb
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\bin\Debug\FileCopier.exe.config
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\bin\Debug\FileCopier.exe
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\bin\Debug\FileCopier.pdb
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.csprojResolveAssemblyReference.cache
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.FrmMain.resources
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.Properties.Resources.resources
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.csproj.GenerateResource.Cache
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.csproj.CoreCompileInputs.cache
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.exe
+D:\0Concurrency\DA218A\Module4\FileCopierCS\FileCopier\obj\Debug\FileCopier.pdb
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.csprojResolveAssemblyReference.cache
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.FormMain.resources
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.Properties.Resources.resources
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.csproj.GenerateResource.Cache
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.csproj.CoreCompileInputs.cache
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.exe
+D:\0Concurrency\DA218A\Module4\FileCopierCSToStud\FileCopier\obj\Debug\FileCopier.pdb
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.csprojResolveAssemblyReference.cache
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.FormMain.resources
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.Properties.Resources.resources
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.csproj.GenerateResource.Cache
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.csproj.CoreCompileInputs.cache
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.exe
+E:\Assignment4\FileCopier\obj\Debug\FileCopier.pdb
+E:\Assignment4\FileCopier\bin\Debug\FileCopier.exe.config
+E:\Assignment4\FileCopier\bin\Debug\FileCopier.exe
+E:\Assignment4\FileCopier\bin\Debug\FileCopier.pdb
