@@ -17,3 +17,12 @@ M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.Cache
 M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.CoreCompileInputs.cache
 M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.exe
 M:\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.pdb
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe.config
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.exe
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.pdb
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csprojResolveAssemblyReference.cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.Form1.resources
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.Properties.Resources.resources
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.Cache
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe
+C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.pdb

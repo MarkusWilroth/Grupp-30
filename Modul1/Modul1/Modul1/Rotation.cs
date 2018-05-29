@@ -25,15 +25,10 @@ namespace Modul1 {
             //pointResult = Transform(myPoint);
 
         }
-        public void Rotating() {
-            if (isRotating) {
-                isRotating = false;
-            }
-            else {
-                isRotating = true;
-            }
-
+        public void Rotating(bool isRotating) {
+            this.isRotating = isRotating;
         }
+
         public Point Transform (Point point) {
             return point;
         }
@@ -51,9 +46,6 @@ namespace Modul1 {
             } else {
                 angle++;
             }
-
-
-
             return points;
         }
         private int[] LineCoored(int angleIn, int radius, int center) {

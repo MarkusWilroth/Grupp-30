@@ -18,6 +18,7 @@ namespace Modul1 {
         Point[] points;
         Bitmap bmp;
         Thread t1;
+        SolidBrush sb;
 
         public Form1() {
             InitializeComponent();
@@ -27,7 +28,7 @@ namespace Modul1 {
             points = new Point[4];
 
             bmp = new Bitmap(x, y);
-            
+            sb = new SolidBrush(Color.Black);
             rotation = new Rotation(x, y, g);
             t1 = new Thread(new ThreadStart(Start));
             t1.Start();
@@ -35,18 +36,15 @@ namespace Modul1 {
         }
 
         public void Start() {
-            
             if (isRotating) {
                 Thread.Sleep(100);
-                rotation.Update();
+                points = rotation.Update();
                 panel1.Invalidate();
-
             }
-            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e) {
-            SolidBrush sb = new SolidBrush(Color.Black);
+            
             g = Graphics.FromImage(bmp);
 
             g.Clear(Color.White);
@@ -54,20 +52,9 @@ namespace Modul1 {
             g.FillPolygon(sb, points); //ändra till rektangeln som finns i Rotation... men hur?
             g.Dispose();
             Start();
-
-
-
-
-
-
             //Pen p = new Pen(Color.Black);
-
-
-
             //g.DrawRectangle(p, x, y, 100, 100);
             //g.FillRectangle(sb, x, y, 100, 100);
-
-
         }
 
         private void Form1_Load(object sender, EventArgs e) {
@@ -76,11 +63,13 @@ namespace Modul1 {
 
         private void btnStop_Click(object sender, EventArgs e) {
             rotation.Rotating(false);
+            isRotating = false;
             Start();
         }
 
         private void btnRotate_Click(object sender, EventArgs e) {
             rotation.Rotating(true);
+            isRotating = true;
             Start();
         }
     }
