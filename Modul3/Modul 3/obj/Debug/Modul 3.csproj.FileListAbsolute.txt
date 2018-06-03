@@ -1,0 +1,7 @@
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\obj\Debug\Modul 3.csprojResolveAssemblyReference.cache
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\obj\Debug\Modul 3.csproj.CoreCompileInputs.cache
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\bin\Debug\Modul 3.exe.config
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\bin\Debug\Modul 3.exe
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\bin\Debug\Modul 3.pdb
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\obj\Debug\Modul 3.exe
+C:\Users\ah8173\source\repos\Modul 3\Modul 3\obj\Debug\Modul 3.pdb
