@@ -5,3 +5,10 @@ C:\Users\ah8173\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
 C:\Users\ah8173\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
 C:\Users\ah8173\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\ah8173\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Flugan\Grupp-30\Modul5\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Flugan\Grupp-30\Modul5\bin\Debug\ConsoleApp1.exe
+C:\Users\Flugan\Grupp-30\Modul5\bin\Debug\ConsoleApp1.pdb
+C:\Users\Flugan\Grupp-30\Modul5\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Flugan\Grupp-30\Modul5\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Flugan\Grupp-30\Modul5\obj\Debug\ConsoleApp1.exe
+C:\Users\Flugan\Grupp-30\Modul5\obj\Debug\ConsoleApp1.pdb

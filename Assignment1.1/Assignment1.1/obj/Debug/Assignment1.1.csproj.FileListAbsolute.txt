@@ -8,3 +8,13 @@ C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\De
 C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csproj.CoreCompileInputs.cache
 C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.exe
 C:\Users\spellabbet\Documents\GitHub\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.pdb
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\bin\Debug\Assignment1.1.exe.config
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\bin\Debug\Assignment1.1.exe
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\bin\Debug\Assignment1.1.pdb
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csprojAssemblyReference.cache
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1._1.MainForm.resources
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1._1.Properties.Resources.resources
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csproj.GenerateResource.cache
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.csproj.CoreCompileInputs.cache
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.exe
+C:\Users\Flugan\Grupp-30\Assignment1.1\Assignment1.1\obj\Debug\Assignment1.1.pdb

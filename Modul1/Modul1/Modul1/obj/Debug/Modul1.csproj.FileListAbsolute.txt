@@ -26,3 +26,13 @@ C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Mod
 C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.Cache
 C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe
 C:\Users\spellabbet\Documents\GitHub\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.pdb
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe.config
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.exe
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\bin\Debug\Modul1.pdb
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csprojAssemblyReference.cache
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.Form1.resources
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.Properties.Resources.resources
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.GenerateResource.cache
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.csproj.CoreCompileInputs.cache
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.exe
+C:\Users\Flugan\Grupp-30\Modul1\Modul1\Modul1\obj\Debug\Modul1.pdb
