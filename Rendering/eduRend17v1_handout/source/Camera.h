@@ -27,6 +27,7 @@ public:
 						// zFar should depend on the size of the scene
 	float mTheta;
 	vec3f position, rot;
+	mat4f ViewToWorld;
 
 	camera_t(
 		float vfov,
@@ -43,18 +44,31 @@ public:
 	//
 	void moveTo(const vec3f& p)
 	{
-		position = p;
+		position = p; //position = p + (ViewToWorld * (0,0,-1,0)) * velocity * dt;
 	}
 
 	// Move relatively
 	//
-	void move(const vec3f& v)
+	void move(const vec3f& v) //v = velocity * dt
 	{
-		position += v;
+		mat4f vtw = ViewToWorld * (0, 0, -1, 0);
+		/*position += v;*/
+
+		position = position + vtw[3] * v;
+
+		//v = ViewToWorld * (0,0,-1,0);
+		//position = position + v * velocity * dt
+		//v i detta fall = kolumnt  av matrisen ViewToWorld
 	}
-	void rotate(const vec3f v) {
-		mTheta += v.y/2;
-		rot = v;
+	void rotate(float grader, vec3f u) {
+		mTheta += grader;
+		rot = u;
+		mTheta / 2;
+
+		if (mTheta >= 360) {
+			mTheta = 0;
+		}
+		//position += v.y;
 	}
 
 	// Return World-to-View matrix for this camera
@@ -69,6 +83,7 @@ public:
 
 		//return (mat4f::translation(-position)); 2 * 3.1415926535897f
 		mat4f R = mat4f::rotation(mTheta, rot);
+		ViewToWorld = mat4f::translation(position) * R; //ViewToWorld = TR
 		return (transpose(R) * mat4f::translation(-position));
 	}
 

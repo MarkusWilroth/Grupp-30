@@ -17,7 +17,10 @@ enum Keys {
 	S = DIK_S,
 	D = DIK_D,
 	Q = DIK_Q,
-	E = DIK_E
+	E = DIK_E,
+	Z = DIK_Z,
+	X = DIK_X
+
 };
 
 class InputHandler {

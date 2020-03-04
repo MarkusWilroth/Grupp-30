@@ -102,10 +102,14 @@ void updateObjects(float dt)
 		camera->move({ camera_vel *dt, 0.0f, 0.0f });
 	if (g_InputHandler->IsKeyPressed(Keys::Left) || g_InputHandler->IsKeyPressed(Keys::A))
 		camera->move({ -camera_vel *dt, 0.0f, 0.0f });
-	if (g_InputHandler->IsKeyPressed(Keys::Right) || g_InputHandler->IsKeyPressed(Keys::Q))
-		camera->rotate({ 0.0f, camera_vel * dt, 0.0f });
-	if (g_InputHandler->IsKeyPressed(Keys::Left) || g_InputHandler->IsKeyPressed(Keys::E))
-		camera->rotate({ 0.0f,  -camera_vel * dt, 0.0f });
+	if (g_InputHandler->IsKeyPressed(Keys::Q))
+		camera->rotate(0.001, vec3f(1,0,0));
+	if (g_InputHandler->IsKeyPressed(Keys::E))
+		camera->rotate(-0.001, vec3f(1,0,0));
+	if (g_InputHandler->IsKeyPressed(Keys::Z))
+		camera->rotate(0.001, vec3f(0, 1, 0));
+	if (g_InputHandler->IsKeyPressed(Keys::X))
+		camera->rotate(-0.001, vec3f(0, 1, 0));
 
 	// Now set/update object transformations
 	// This can be done using any sequence of transformation matrices,
