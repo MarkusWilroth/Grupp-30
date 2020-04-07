@@ -35,15 +35,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_Stop = new System.Windows.Forms.Button();
+            this.btn_Play = new System.Windows.Forms.Button();
+            this.btn_Open = new System.Windows.Forms.Button();
             this.lblClock = new System.Windows.Forms.Label();
             this.gB2 = new System.Windows.Forms.GroupBox();
-            this.btn_StartClock = new System.Windows.Forms.Button();
             this.btn_StopClock = new System.Windows.Forms.Button();
-            this.btn_Open = new System.Windows.Forms.Button();
-            this.btn_Play = new System.Windows.Forms.Button();
-            this.btn_Stop = new System.Windows.Forms.Button();
+            this.btn_StartClock = new System.Windows.Forms.Button();
+            this.rnd_Text = new System.Windows.Forms.GroupBox();
+            this.Rot_Figure = new System.Windows.Forms.GroupBox();
+            this.lbl_Corona = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.gB2.SuspendLayout();
+            this.rnd_Text.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -71,7 +75,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(29, 109);
+            this.groupBox1.Location = new System.Drawing.Point(10, 10);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(1);
@@ -79,6 +83,39 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Media Player";
+            // 
+            // btn_Stop
+            // 
+            this.btn_Stop.BackColor = System.Drawing.Color.White;
+            this.btn_Stop.Location = new System.Drawing.Point(224, 72);
+            this.btn_Stop.Name = "btn_Stop";
+            this.btn_Stop.Size = new System.Drawing.Size(70, 36);
+            this.btn_Stop.TabIndex = 6;
+            this.btn_Stop.Text = "Stop";
+            this.btn_Stop.UseVisualStyleBackColor = false;
+            this.btn_Stop.Click += new System.EventHandler(this.btn_Stop_Click);
+            // 
+            // btn_Play
+            // 
+            this.btn_Play.BackColor = System.Drawing.Color.White;
+            this.btn_Play.Location = new System.Drawing.Point(130, 72);
+            this.btn_Play.Name = "btn_Play";
+            this.btn_Play.Size = new System.Drawing.Size(70, 36);
+            this.btn_Play.TabIndex = 5;
+            this.btn_Play.Text = "Play";
+            this.btn_Play.UseVisualStyleBackColor = false;
+            this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
+            // 
+            // btn_Open
+            // 
+            this.btn_Open.BackColor = System.Drawing.Color.White;
+            this.btn_Open.Location = new System.Drawing.Point(45, 72);
+            this.btn_Open.Name = "btn_Open";
+            this.btn_Open.Size = new System.Drawing.Size(69, 36);
+            this.btn_Open.TabIndex = 4;
+            this.btn_Open.Text = "Open";
+            this.btn_Open.UseVisualStyleBackColor = false;
+            this.btn_Open.Click += new System.EventHandler(this.btn_Open_Click);
             // 
             // lblClock
             // 
@@ -99,7 +136,7 @@
             this.gB2.Controls.Add(this.btn_StopClock);
             this.gB2.Controls.Add(this.btn_StartClock);
             this.gB2.Controls.Add(this.lblClock);
-            this.gB2.Location = new System.Drawing.Point(395, 109);
+            this.gB2.Location = new System.Drawing.Point(426, 10);
             this.gB2.Margin = new System.Windows.Forms.Padding(1);
             this.gB2.Name = "gB2";
             this.gB2.Padding = new System.Windows.Forms.Padding(1);
@@ -107,17 +144,6 @@
             this.gB2.TabIndex = 6;
             this.gB2.TabStop = false;
             this.gB2.Text = "Digital Clock";
-            // 
-            // btn_StartClock
-            // 
-            this.btn_StartClock.BackColor = System.Drawing.Color.White;
-            this.btn_StartClock.Location = new System.Drawing.Point(25, 110);
-            this.btn_StartClock.Name = "btn_StartClock";
-            this.btn_StartClock.Size = new System.Drawing.Size(117, 30);
-            this.btn_StartClock.TabIndex = 8;
-            this.btn_StartClock.Text = "Start";
-            this.btn_StartClock.UseVisualStyleBackColor = false;
-            this.btn_StartClock.Click += new System.EventHandler(this.btn_StartClock_Click);
             // 
             // btn_StopClock
             // 
@@ -130,44 +156,54 @@
             this.btn_StopClock.UseVisualStyleBackColor = false;
             this.btn_StopClock.Click += new System.EventHandler(this.btn_StopClock_Click);
             // 
-            // btn_Open
+            // btn_StartClock
             // 
-            this.btn_Open.BackColor = System.Drawing.Color.White;
-            this.btn_Open.Location = new System.Drawing.Point(45, 72);
-            this.btn_Open.Name = "btn_Open";
-            this.btn_Open.Size = new System.Drawing.Size(69, 36);
-            this.btn_Open.TabIndex = 4;
-            this.btn_Open.Text = "Open";
-            this.btn_Open.UseVisualStyleBackColor = false;
-            this.btn_Open.Click += new System.EventHandler(this.btn_Open_Click);
+            this.btn_StartClock.BackColor = System.Drawing.Color.White;
+            this.btn_StartClock.Location = new System.Drawing.Point(25, 110);
+            this.btn_StartClock.Name = "btn_StartClock";
+            this.btn_StartClock.Size = new System.Drawing.Size(117, 30);
+            this.btn_StartClock.TabIndex = 8;
+            this.btn_StartClock.Text = "Start";
+            this.btn_StartClock.UseVisualStyleBackColor = false;
+            this.btn_StartClock.Click += new System.EventHandler(this.btn_StartClock_Click);
             // 
-            // btn_Play
+            // rnd_Text
             // 
-            this.btn_Play.BackColor = System.Drawing.Color.White;
-            this.btn_Play.Location = new System.Drawing.Point(130, 72);
-            this.btn_Play.Name = "btn_Play";
-            this.btn_Play.Size = new System.Drawing.Size(70, 36);
-            this.btn_Play.TabIndex = 5;
-            this.btn_Play.Text = "Play";
-            this.btn_Play.UseVisualStyleBackColor = false;
-            this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
+            this.rnd_Text.BackColor = System.Drawing.Color.Gainsboro;
+            this.rnd_Text.Controls.Add(this.lbl_Corona);
+            this.rnd_Text.Location = new System.Drawing.Point(10, 270);
+            this.rnd_Text.Name = "rnd_Text";
+            this.rnd_Text.Size = new System.Drawing.Size(335, 144);
+            this.rnd_Text.TabIndex = 7;
+            this.rnd_Text.TabStop = false;
+            this.rnd_Text.Text = "Random Text";
             // 
-            // btn_Stop
+            // Rot_Figure
             // 
-            this.btn_Stop.BackColor = System.Drawing.Color.White;
-            this.btn_Stop.Location = new System.Drawing.Point(224, 72);
-            this.btn_Stop.Name = "btn_Stop";
-            this.btn_Stop.Size = new System.Drawing.Size(70, 36);
-            this.btn_Stop.TabIndex = 6;
-            this.btn_Stop.Text = "Stop";
-            this.btn_Stop.UseVisualStyleBackColor = false;
-            this.btn_Stop.Click += new System.EventHandler(this.btn_Stop_Click);
+            this.Rot_Figure.BackColor = System.Drawing.Color.Gainsboro;
+            this.Rot_Figure.Location = new System.Drawing.Point(399, 270);
+            this.Rot_Figure.Name = "Rot_Figure";
+            this.Rot_Figure.Size = new System.Drawing.Size(335, 144);
+            this.Rot_Figure.TabIndex = 8;
+            this.Rot_Figure.TabStop = false;
+            this.Rot_Figure.Text = "Rotating Figure";
+            // 
+            // lbl_Corona
+            // 
+            this.lbl_Corona.AutoSize = true;
+            this.lbl_Corona.Location = new System.Drawing.Point(78, 49);
+            this.lbl_Corona.Name = "lbl_Corona";
+            this.lbl_Corona.Size = new System.Drawing.Size(41, 13);
+            this.lbl_Corona.TabIndex = 0;
+            this.lbl_Corona.Text = "Corona";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 426);
+            this.Controls.Add(this.Rot_Figure);
+            this.Controls.Add(this.rnd_Text);
             this.Controls.Add(this.gB2);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(1);
@@ -177,6 +213,8 @@
             this.groupBox1.PerformLayout();
             this.gB2.ResumeLayout(false);
             this.gB2.PerformLayout();
+            this.rnd_Text.ResumeLayout(false);
+            this.rnd_Text.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -193,6 +231,9 @@
         private System.Windows.Forms.Button btn_Open;
         private System.Windows.Forms.Button btn_Play;
         private System.Windows.Forms.Button btn_Stop;
+        private System.Windows.Forms.GroupBox rnd_Text;
+        private System.Windows.Forms.Label lbl_Corona;
+        private System.Windows.Forms.GroupBox Rot_Figure;
     }
 }
 
