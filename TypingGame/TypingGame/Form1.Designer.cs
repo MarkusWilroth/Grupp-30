@@ -27,7 +27,6 @@
             this.lblCorrect = new System.Windows.Forms.Label();
             this.lblIncorrect = new System.Windows.Forms.Label();
             this.lblWord = new System.Windows.Forms.Label();
-            this.lblStart = new System.Windows.Forms.Label();
             this.tbText = new System.Windows.Forms.TextBox();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
@@ -35,20 +34,23 @@
             // lblCorrect
             // 
             this.lblCorrect.AutoSize = true;
-            this.lblCorrect.Location = new System.Drawing.Point(16, 18);
+            this.lblCorrect.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorrect.Location = new System.Drawing.Point(12, 9);
             this.lblCorrect.Name = "lblCorrect";
-            this.lblCorrect.Size = new System.Drawing.Size(53, 13);
+            this.lblCorrect.Size = new System.Drawing.Size(116, 25);
             this.lblCorrect.TabIndex = 0;
             this.lblCorrect.Text = "Correct: 0";
             // 
             // lblIncorrect
             // 
             this.lblIncorrect.AutoSize = true;
-            this.lblIncorrect.Location = new System.Drawing.Point(513, 18);
+            this.lblIncorrect.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIncorrect.Location = new System.Drawing.Point(462, 9);
             this.lblIncorrect.Name = "lblIncorrect";
-            this.lblIncorrect.Size = new System.Drawing.Size(61, 13);
+            this.lblIncorrect.Size = new System.Drawing.Size(131, 25);
             this.lblIncorrect.TabIndex = 1;
             this.lblIncorrect.Text = "Incorrect: 0";
+            this.lblIncorrect.Click += new System.EventHandler(this.lblIncorrect_Click);
             // 
             // lblWord
             // 
@@ -60,22 +62,14 @@
             this.lblWord.TabIndex = 2;
             this.lblWord.Text = "Word";
             // 
-            // lblStart
-            // 
-            this.lblStart.AutoSize = true;
-            this.lblStart.Location = new System.Drawing.Point(235, 351);
-            this.lblStart.Name = "lblStart";
-            this.lblStart.Size = new System.Drawing.Size(108, 13);
-            this.lblStart.TabIndex = 3;
-            this.lblStart.Text = " Press enter to check";
-            // 
             // tbText
             // 
             this.tbText.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbText.Location = new System.Drawing.Point(193, 190);
+            this.tbText.Location = new System.Drawing.Point(81, 349);
             this.tbText.Name = "tbText";
-            this.tbText.Size = new System.Drawing.Size(177, 40);
+            this.tbText.Size = new System.Drawing.Size(407, 40);
             this.tbText.TabIndex = 4;
+            this.tbText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbText.KeyUp += new System.Windows.Forms.KeyEventHandler(this.checkGame);
             // 
             // Timer
@@ -88,7 +82,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 401);
             this.Controls.Add(this.tbText);
-            this.Controls.Add(this.lblStart);
             this.Controls.Add(this.lblWord);
             this.Controls.Add(this.lblIncorrect);
             this.Controls.Add(this.lblCorrect);
@@ -104,7 +97,6 @@
         private System.Windows.Forms.Label lblCorrect;
         private System.Windows.Forms.Label lblIncorrect;
         private System.Windows.Forms.Label lblWord;
-        private System.Windows.Forms.Label lblStart;
         private System.Windows.Forms.TextBox tbText;
         private System.Windows.Forms.Timer Timer;
     }

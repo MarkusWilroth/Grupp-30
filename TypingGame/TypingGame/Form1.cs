@@ -15,46 +15,55 @@ namespace TypingGame {
 
         Random rnd = new Random();
 
-        int correct, incorrect, x, y, center, origin;
-
-        
+        int correct, incorrect, x, y, center;        
 
         public Form1() {
             InitializeComponent();
             center = 230;
-            origin = 0;
             Timer.Interval = 1;
             Timer.Start();
             correct = 0; incorrect = 0; x = center;
 
             lblWord.Text = words[rnd.Next(0, words.Length)];
-        }
+        }       
 
         private void timer1_Tick(object sender, EventArgs e) {
             lblWord.SetBounds(x, y, 1, 1);
             y++;
-            if (y >= 150) {
-                y = origin;
-                incorrect++;
-                lblWord.Text = words[rnd.Next(0, words.Length)];
-                tbText.Text = null;
+            if (y >= 250) {
+                IncorrectAnswer();
             }
         }
 
         private void checkGame(object sender, KeyEventArgs e) {
             if(e.KeyCode == Keys.Enter) {
                 if(tbText.Text == lblWord.Text) {
-                    correct++;
-                    lblWord.Text = words[rnd.Next(0, words.Length)];
-                    tbText.Text = null;
+                    CorrectAnswer();
                 } else {
-                    incorrect++;
-                    lblWord.Text = words[rnd.Next(0, words.Length)];
-                    tbText.Text = null;
+                    IncorrectAnswer();
                 }
                 lblCorrect.Text = "Correct: " + correct;
                 lblIncorrect.Text = "Incorrect: " + incorrect;
             }
+        }
+
+        private void IncorrectAnswer() {
+            y = 0;
+            lblWord.SetBounds(x, y, 1, 1);
+            incorrect++;
+            lblWord.Text = words[rnd.Next(0, words.Length)];
+            tbText.Text = null;
+        }
+        private void CorrectAnswer() {
+            y = 0;
+            lblWord.SetBounds(x, y, 1, 1);
+            correct++;
+            lblWord.Text = words[rnd.Next(0, words.Length)];
+            tbText.Text = null;
+        }
+
+        private void lblIncorrect_Click(object sender, EventArgs e) {
+
         }
     }
 }
