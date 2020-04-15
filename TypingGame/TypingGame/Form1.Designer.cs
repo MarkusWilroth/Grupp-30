@@ -29,6 +29,7 @@
             this.lblWord = new System.Windows.Forms.Label();
             this.tbText = new System.Windows.Forms.TextBox();
             this.Timer = new System.Windows.Forms.Timer(this.components);
+            this.btnStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblCorrect
@@ -76,17 +77,30 @@
             // 
             this.Timer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(450, 200);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(143, 40);
+            this.btnStart.TabIndex = 5;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Visible = false;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 401);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.tbText);
             this.Controls.Add(this.lblWord);
             this.Controls.Add(this.lblIncorrect);
             this.Controls.Add(this.lblCorrect);
             this.Name = "Form1";
             this.Text = "Typing Game";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,6 +113,7 @@
         private System.Windows.Forms.Label lblWord;
         private System.Windows.Forms.TextBox tbText;
         private System.Windows.Forms.Timer Timer;
+        private System.Windows.Forms.Button btnStart;
     }
 }
 
