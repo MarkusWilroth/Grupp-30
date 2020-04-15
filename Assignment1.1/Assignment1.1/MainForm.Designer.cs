@@ -42,12 +42,8 @@
             this.gB2 = new System.Windows.Forms.GroupBox();
             this.btn_StopClock = new System.Windows.Forms.Button();
             this.btn_StartClock = new System.Windows.Forms.Button();
-            this.rnd_Text = new System.Windows.Forms.GroupBox();
-            this.Rot_Figure = new System.Windows.Forms.GroupBox();
-            this.lbl_Corona = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.gB2.SuspendLayout();
-            this.rnd_Text.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -75,7 +71,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(10, 10);
+            this.groupBox1.Location = new System.Drawing.Point(10, 82);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(1);
@@ -136,7 +132,7 @@
             this.gB2.Controls.Add(this.btn_StopClock);
             this.gB2.Controls.Add(this.btn_StartClock);
             this.gB2.Controls.Add(this.lblClock);
-            this.gB2.Location = new System.Drawing.Point(426, 10);
+            this.gB2.Location = new System.Drawing.Point(426, 82);
             this.gB2.Margin = new System.Windows.Forms.Padding(1);
             this.gB2.Name = "gB2";
             this.gB2.Padding = new System.Windows.Forms.Padding(1);
@@ -167,43 +163,11 @@
             this.btn_StartClock.UseVisualStyleBackColor = false;
             this.btn_StartClock.Click += new System.EventHandler(this.btn_StartClock_Click);
             // 
-            // rnd_Text
-            // 
-            this.rnd_Text.BackColor = System.Drawing.Color.Gainsboro;
-            this.rnd_Text.Controls.Add(this.lbl_Corona);
-            this.rnd_Text.Location = new System.Drawing.Point(10, 270);
-            this.rnd_Text.Name = "rnd_Text";
-            this.rnd_Text.Size = new System.Drawing.Size(335, 144);
-            this.rnd_Text.TabIndex = 7;
-            this.rnd_Text.TabStop = false;
-            this.rnd_Text.Text = "Random Text";
-            // 
-            // Rot_Figure
-            // 
-            this.Rot_Figure.BackColor = System.Drawing.Color.Gainsboro;
-            this.Rot_Figure.Location = new System.Drawing.Point(399, 270);
-            this.Rot_Figure.Name = "Rot_Figure";
-            this.Rot_Figure.Size = new System.Drawing.Size(335, 144);
-            this.Rot_Figure.TabIndex = 8;
-            this.Rot_Figure.TabStop = false;
-            this.Rot_Figure.Text = "Rotating Figure";
-            // 
-            // lbl_Corona
-            // 
-            this.lbl_Corona.AutoSize = true;
-            this.lbl_Corona.Location = new System.Drawing.Point(78, 49);
-            this.lbl_Corona.Name = "lbl_Corona";
-            this.lbl_Corona.Size = new System.Drawing.Size(41, 13);
-            this.lbl_Corona.TabIndex = 0;
-            this.lbl_Corona.Text = "Corona";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 426);
-            this.Controls.Add(this.Rot_Figure);
-            this.Controls.Add(this.rnd_Text);
             this.Controls.Add(this.gB2);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(1);
@@ -213,8 +177,6 @@
             this.groupBox1.PerformLayout();
             this.gB2.ResumeLayout(false);
             this.gB2.PerformLayout();
-            this.rnd_Text.ResumeLayout(false);
-            this.rnd_Text.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -231,9 +193,6 @@
         private System.Windows.Forms.Button btn_Open;
         private System.Windows.Forms.Button btn_Play;
         private System.Windows.Forms.Button btn_Stop;
-        private System.Windows.Forms.GroupBox rnd_Text;
-        private System.Windows.Forms.Label lbl_Corona;
-        private System.Windows.Forms.GroupBox Rot_Figure;
     }
 }
 
