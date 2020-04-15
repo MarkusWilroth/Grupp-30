@@ -31,7 +31,14 @@ namespace TypingGame {
         }
 
         private void timer1_Tick(object sender, EventArgs e) {
-           
+            lblWord.SetBounds(x, y, 1, 1);
+            y++;
+            if (y >= 150) {
+                y = origin;
+                incorrect++;
+                lblWord.Text = words[rnd.Next(0, words.Length)];
+                tbText.Text = null;
+            }
         }
 
         private void checkGame(object sender, KeyEventArgs e) {
@@ -47,14 +54,6 @@ namespace TypingGame {
                 }
                 lblCorrect.Text = "Correct: " + correct;
                 lblIncorrect.Text = "Incorrect: " + incorrect;
-            }
-            lblWord.SetBounds(x, y, 1, 1);
-            y++;
-            if (y >= 150) {
-                y = origin;
-                incorrect++;
-                lblWord.Text = words[rnd.Next(0, words.Length)];
-                tbText.Text = null;
             }
         }
     }
